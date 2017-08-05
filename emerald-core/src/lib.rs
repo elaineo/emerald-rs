@@ -43,7 +43,7 @@ pub mod contract;
 pub mod storage;
 pub mod rpc;
 mod hdwallet;
-mod util;
+pub mod util;
 
 pub use self::core::*;
 pub use self::rpc::start;
